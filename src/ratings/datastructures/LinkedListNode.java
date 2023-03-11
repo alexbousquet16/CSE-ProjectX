@@ -33,7 +33,7 @@ public class LinkedListNode<T> {
     public String toString() {
         String out = "";
         out += this.value;
-        if (this.next != null) {
+        if (this.next == null) {
             out += this.next.toString() + " ";
         }
         return out;
@@ -65,4 +65,6 @@ public class LinkedListNode<T> {
             this.next.insert(value, loc - 1);
         }
     }
+
+
 }
