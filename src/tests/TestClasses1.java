@@ -4,31 +4,31 @@ import org.junit.Test;
 import ratings.Rating;
 import ratings.Reviewer;
 import ratings.Song;
+import ratings.Ratable;
 
 import static org.junit.Assert.assertTrue;
 
-/*
 public class TestClasses1 {
 
 
     // These test are provided for you. As you complete the task, uncomment these tests to test your code
     // You should use these tests as reference as you write your own tests in the future
 
-   @Test
+  /* @Test
    public void testSongClass() {
-        Song song = new Song("Come As You Are", "Nirvana", "vabnZ9-ex7o");
+       Song song = new Song("Come As You Are", "Nirvana", "vabnZ9-ex7o");
 
-        assertTrue(song.getSongID().equals("vabnZ9-ex7o"));
-        assertTrue(song.getArtist().equals("Nirvana"));
-        assertTrue(song.getTitle().equals("Come As You Are"));
+       assertTrue(song.getSongID().equals("vabnZ9-ex7o"));
+       assertTrue(song.getArtist().equals("Nirvana"));
+       assertTrue(song.getTitle().equals("Come As You Are"));
 
-        song.setSongID("deleted");
-        song.setArtist("removed");
-        song.setTitle("redacted");
+       song.setSongID("deleted");
+       song.setArtist("removed");
+       song.setTitle("redacted");
 
-        assertTrue(song.getSongID().equals("deleted"));
-        assertTrue(song.getArtist().equals("removed"));
-        assertTrue(song.getTitle().equals("redacted"));
+       assertTrue(song.getSongID().equals("deleted"));
+       assertTrue(song.getArtist().equals("removed"));
+       assertTrue(song.getTitle().equals("redacted"));
    }
 
    @Test
@@ -93,8 +93,7 @@ public class TestClasses1 {
 
         rating = new Rating("Jesse", 0);
         assertTrue(rating.getRating() == -1);
-  }
+  }*/
 
 }
 
-*/

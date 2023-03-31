@@ -1,4 +1,5 @@
-/*package tests;
+/*
+package tests;
 
 import org.junit.Test;
 import ratings.ProblemSet;
@@ -138,3 +139,4 @@ public class TestProblemSet {
 // {"cat": 5, "dog": 5, "fox": 4} can return either "cat" or "dog"
 // {} returns ""
 */
+

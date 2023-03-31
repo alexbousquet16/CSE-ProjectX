@@ -1,5 +1,6 @@
 package tests;
 
+import ratings.Movie;
 import ratings.Rating;
 import ratings.Reviewer;
 import ratings.Song;
@@ -108,10 +109,9 @@ public class TestDataStructures1 {
 
     }
 
-    //
+
     @Test
     public void testRemoveRatingByReviewer() {
-//
         LinkedListNode<Rating> expected = new LinkedListNode<>(new Rating("Jesse", 1), null);
         expected = new LinkedListNode<>(new Rating("Paul", 2), expected);
         expected = new LinkedListNode<>(new Rating("Carl", 3), expected);
@@ -121,11 +121,11 @@ public class TestDataStructures1 {
         song.addRating(new Rating("Jesse", 5));
         song.addRating(new Rating("Paul", 5));
         song.addRating(new Rating("Carl", 3));
-       song.addRating(new Rating("Matt", 5));
+        song.addRating(new Rating("Matt", 5));
 
-        /*song.removeRatingByReviewer(new Reviewer("Matt"));
+        song.removeRatingByReviewer(new Reviewer("Matt"));
         song.removeRatingByReviewer(new Reviewer("Paul"));
-        song.removeRatingByReviewer(new Reviewer("Jesse"));*/
+        song.removeRatingByReviewer(new Reviewer("Jesse"));
 
 
         song.addRating(new Rating("Paul", 2));
@@ -135,5 +135,7 @@ public class TestDataStructures1 {
         checkRatingsList(computed, expected);
     }
 
+
 }
+
 

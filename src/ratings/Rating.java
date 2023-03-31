@@ -7,11 +7,11 @@ public class Rating {
 
     public Rating(String reviewId, int ratingValue){
         this.reviewId = (reviewId);
-        this.ratingValue =(ratingValue);
+        this.ratingValue= (ratingValue);
     }
 
     public String getReviewerID(){
-        return reviewId;
+        return this.reviewId;
     }
 
     public void setReviewerID(String ratingId){
@@ -19,14 +19,14 @@ public class Rating {
     }
 
     public int getRating()  {
-        return ratingValue;
+        return this.ratingValue;
     }
 
     public void setRating(int value) {
-        if (value < 1 || value  > 5) {
-            this.ratingValue = -1;
-        } else {
+        if (value >= 0 && value  <= 5) {
             this.ratingValue = value;
+        } else {
+            this.ratingValue = -1;
         }
     }
 
